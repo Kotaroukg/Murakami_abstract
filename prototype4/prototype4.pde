@@ -4,7 +4,7 @@ First_wave f_wave;
 void setup(){
   size(1000,1000);
   smooth();
-  frameRate(15);
+  frameRate(30);
   line(0,height/2-100,width,height/2-100);
   set_elementary_waves_lotation();
   f_wave = new First_wave(45);//angle
